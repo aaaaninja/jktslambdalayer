@@ -4,7 +4,8 @@
   "description": "Serverless webpack example using Typescript",
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "layerinstall": "yarn install --prod --modules-folder mmy-layer/nodejs/node_modules/"
   },
   "dependencies": {
     "axios": "^0.19.2",
