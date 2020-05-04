@@ -29,3 +29,7 @@ functions:
       - http:
           method: get
           path: hello
+
+layers:
+  mmylayer:
+    path: mmy-layer
