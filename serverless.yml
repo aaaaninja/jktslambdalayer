@@ -29,6 +29,8 @@ functions:
       - http:
           method: get
           path: hello
+    layers:
+      - {Ref: MmylayerLambdaLayer}
 
 layers:
   mmylayer:
